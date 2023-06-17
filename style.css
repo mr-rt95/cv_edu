@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Comfortaa',
+        cursive;
+}
+
+.header-first {
+    display: flex;
+    padding: 20px;
+    background-color: #374457;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+.header-name {
+    width: 75%;
+    margin-top: 10px;
+}
+
+.header-photo {
+    display: flex;
+    height: 150px;
+    border-radius: 20%;
+    margin-top: 10px;
+
+}
+
+.my-name h3 {
+    font-size: 17px;
+    font-weight: 100;
+    color: #F24C3D;
+    margin: 2px 0 5px;
+}
+
+.my-namedesc {
+    font-weight: 100;
+}
+
+.header-contact {
+    display: flex;
+    padding: 5px;
+    background-color: #2C343F;
+    color: #FFFFFF;
+    justify-content: space-around;
+}
+
+.header-contact a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header-contact img {
+    margin-right: 5px;
+    width: 25px;
+}
+
+.header-email,
+.header-tel,
+.header-loc,
+.header-linkedin,
+.header-skype {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.col h2 {
+    display: inline;
+    color: #F24C3D;
+    border-bottom: solid 2px #F24C3D;
+}
+
+.job h3 {
+    color: #F24C3D;
+    margin-top: 20px;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.skill {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.skill h3 {
+    width: 20%;
+    min-width: 100px;
+    margin-right: 10px;
+}
+
+.progress {
+    width: 100%;
+    border: #F24C3D solid 2px;
+}
+
+.progress-html {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: 900;
+    height: 15px;
+    background-color: #F24C3D;
+    width: 100%;
+    font-size: 15px;
+}
+
+.progress-css {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: 900;
+    height: 15px;
+    background-color: #F24C3D;
+    width: 100%;
+    font-size: 15px;
+}
+
+.progress-js {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: 900;
+    height: 15px;
+    background-color: #F24C3D;
+    width: 70%;
+    font-size: 15px;
+}
+
+.progress-angular {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: 900;
+    height: 15px;
+    background-color: #F24C3D;
+    width: 50%;
+    font-size: 15px;
+}
+
+.progress-react {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: 900;
+    height: 15px;
+    background-color: #F24C3D;
+    width: 80%;
+    font-size: 15px;
+}
+
+.progress-nodejs {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: 900;
+    height: 15px;
+    background-color: #F24C3D;
+    width: 85%;
+    font-size: 15px;
+}
+
+.lang {
+    margin: 10px;
+}
+
+footer {
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #2C343F;
+}
+
+footer p {
+    text-align: center;
+    margin: 10px;
+}
