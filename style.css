@@ -7,195 +7,549 @@
 body {
     display: flex;
     flex-direction: column;
-    width: 100%;
     font-family: 'Comfortaa',
         cursive;
 }
 
-.header-first {
-    display: flex;
-    padding: 20px;
-    background-color: #374457;
-    justify-content: space-around;
-    color: #ffffff;
-}
-
-.header-name {
-    width: 75%;
-    margin-top: 10px;
-}
-
-.header-photo {
-    display: flex;
-    height: 150px;
-    border-radius: 20%;
-    margin-top: 10px;
-
-}
-
-.my-name h3 {
-    font-size: 17px;
-    font-weight: 100;
-    color: #F24C3D;
-    margin: 2px 0 5px;
-}
-
-.my-namedesc {
-    font-weight: 100;
-}
-
-.header-contact {
-    display: flex;
-    padding: 5px;
-    background-color: #2C343F;
-    color: #FFFFFF;
-    justify-content: space-around;
-}
-
-.header-contact a {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-.header-contact img {
-    margin-right: 5px;
-    width: 25px;
-}
-
-.header-email,
-.header-tel,
-.header-loc,
-.header-linkedin,
-.header-skype {
-    display: flex;
-    align-items: center;
-}
-
-main {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 50px;
-}
-
-.col {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    justify-content: space-around;
-}
-
-.col h2 {
-    display: inline;
-    color: #F24C3D;
-    border-bottom: solid 2px #F24C3D;
-}
-
-.job h3 {
-    color: #F24C3D;
-    margin-top: 20px;
-}
-
-.experience {
-    margin-bottom: 20px;
-}
-
-.skill {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin: 15px;
-}
-
-.skill h3 {
-    width: 20%;
-    min-width: 100px;
-    margin-right: 10px;
-}
-
-.progress {
-    width: 100%;
-    border: #F24C3D solid 2px;
-}
-
-.progress-html {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    font-weight: 900;
-    height: 15px;
-    background-color: #F24C3D;
-    width: 100%;
-    font-size: 15px;
-}
-
-.progress-css {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    font-weight: 900;
-    height: 15px;
-    background-color: #F24C3D;
-    width: 100%;
-    font-size: 15px;
-}
-
-.progress-js {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    font-weight: 900;
-    height: 15px;
-    background-color: #F24C3D;
-    width: 70%;
-    font-size: 15px;
-}
-
-.progress-angular {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    font-weight: 900;
-    height: 15px;
-    background-color: #F24C3D;
-    width: 50%;
-    font-size: 15px;
-}
-
-.progress-react {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    font-weight: 900;
-    height: 15px;
-    background-color: #F24C3D;
-    width: 80%;
-    font-size: 15px;
-}
-
-.progress-nodejs {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    font-weight: 900;
-    height: 15px;
-    background-color: #F24C3D;
-    width: 85%;
-    font-size: 15px;
-}
-
-.lang {
-    margin: 10px;
-}
-
 footer {
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #FFFFFF;
+    height: 40px;
+    width: 100%;
+    border-top: #F24C3D solid 5px;
     background-color: #2C343F;
 }
 
-footer p {
-    text-align: center;
-    margin: 10px;
+/* FOR PHONE */
+
+
+@media screen and (max-width: 768px) {
+    /* header */
+
+    header {
+        display: flex;
+        flex-direction: column;
+        border-bottom: #F24C3D solid 5px;
+        background-color: #374457;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .part-1 {
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        flex-direction: column;
+        color: #FFFFFF;
+    }
+
+    .part-1 h3 {
+        color: #F24C3D;
+        margin-bottom: 10px;
+    }
+
+    .part-1 img {
+        width: 50%;
+        margin: 15px 0;
+    }
+
+    .part-1 p {
+        text-align: center;
+    }
+
+    .part-2 {
+        display: none;
+    }
+
+    .header-contract {
+        display: none;
+    }
+
+    /* main */
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
+
+    main h2 {
+        color: #F24C3D;
+        border-bottom: solid 2px #F24C3D;
+    }
+
+    .experience h3 {
+        margin: 20px 0 0;
+        color: #F24C3D;
+    }
+
+    /* SKILLS */
+
+    .skills {
+        margin-top: 40px;
+    }
+
+    .skill-1,
+    .skill-2,
+    .skill-3,
+    .skill-4,
+    .skill-5,
+    .skill-6 {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .skill-name {
+        width: 150px;
+        margin-right: 20px;
+    }
+
+
+    .skill-level {
+        width: 100%;
+    }
+
+    .progress-html {
+        text-align: right;
+        width: 100%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    .progress-css {
+        text-align: right;
+        width: 75%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    .progress-js {
+        text-align: right;
+        width: 60%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    .progress-angular {
+        text-align: right;
+        width: 50%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    .progress-react {
+        text-align: right;
+        width: 75%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    .progress-nodejs {
+        text-align: right;
+        width: 40%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    /* EDUCATION */
+
+    .main-part2 {
+        margin-top: 50px;
+    }
+
+    .main-part2 h3 {
+        margin-top: 20px;
+        color: #F24C3D;
+        font-weight: 900;
+    }
+
+    /* LANGUAGES */
+
+    .languages {
+        margin-top: 50px;
+    }
+
+    .language li {
+        margin: 10px 20px;
+        font-weight: 900;
+    }
+
+}
+
+/* FOR TABLET */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /* header */
+
+    header {
+        display: flex;
+        flex-direction: column;
+        border-bottom: #F24C3D solid 5px;
+        background-color: #374457;
+        color: #FFFFFF;
+    }
+
+    .header-info {
+        display: flex;
+        padding: 10px;
+        justify-content: space-around;
+    }
+
+    .part-1 {
+        width: 75%;
+    }
+
+    .part-1 h3 {
+        color: #F24C3D;
+        margin-bottom: 20px;
+    }
+
+    .part-1 img {
+        display: none;
+    }
+
+    .part-2 {
+        display: flex;
+        align-items: center;
+        width: 20%;
+        max-width: 150px;
+    }
+
+    .part-2 img {
+        width: 90%;
+    }
+
+    .header-contract {
+        display: none;
+    }
+
+    /* main */
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 40px;
+        border-left: #F24C3D solid 2px;
+        border-left-style: dashed;
+        padding-left: 20px;
+    }
+
+    main h2 {
+        color: #F24C3D;
+        border-bottom: solid 2px #F24C3D;
+    }
+
+
+    .experience h3 {
+        margin: 20px 0 0;
+        color: #F24C3D;
+    }
+
+    /* SKILLS */
+
+    .skills {
+        margin-top: 60px;
+    }
+
+    .skill-1,
+    .skill-2,
+    .skill-3,
+    .skill-4,
+    .skill-5,
+    .skill-6 {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .skill-name {
+        width: 150px;
+        margin-right: 20px;
+    }
+
+
+    .skill-level {
+        width: 100%;
+    }
+
+    .progress-html {
+        text-align: right;
+        width: 100%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    .progress-css {
+        text-align: right;
+        width: 75%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    .progress-js {
+        text-align: right;
+        width: 60%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    .progress-angular {
+        text-align: right;
+        width: 50%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    .progress-react {
+        text-align: right;
+        width: 75%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    .progress-nodejs {
+        text-align: right;
+        width: 40%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    /* EDUCATION */
+
+    .main-part2 {
+        margin-top: 50px;
+    }
+
+    .main-part2 h3 {
+        margin-top: 20px;
+        color: #F24C3D;
+        font-weight: 900;
+    }
+
+    /* LANGUAGES */
+
+    .languages {
+        margin-top: 50px;
+    }
+
+    .language li {
+        margin: 10px 20px;
+        font-weight: 900;
+    }
+}
+
+/* FOR LAPTOP */
+
+@media screen and (min-width: 1025px) {
+
+    /* header */
+
+    header {
+        display: flex;
+        flex-direction: column;
+        border-bottom: #F24C3D solid 5px;
+        background-color: #374457;
+        color: #FFFFFF;
+    }
+
+    .header-info {
+        display: flex;
+        padding: 10px;
+        justify-content: space-around;
+    }
+
+    .part-1 {
+        width: 75%;
+    }
+
+    .part-1 h3 {
+        color: #F24C3D;
+        margin-bottom: 20px;
+    }
+
+    .part-1 img {
+        display: none;
+    }
+
+    .part-2 {
+        display: flex;
+        align-items: center;
+        width: 20%;
+        max-width: 150px;
+    }
+
+    .part-2 img {
+        width: 90%;
+    }
+
+    .header-contract {
+        display: flex;
+        padding: 10px;
+        justify-content: space-around;
+        background-color: #2C343F;
+    }
+
+    .header-contract div {
+        display: flex;
+        align-items: center;
+        width: 250px;
+    }
+
+    .header-contract img {
+        margin-right: 20px;
+        width: 30px;
+    }
+
+    .header-contract a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .header-contract a:hover {
+        color: #F24C3D;
+    }
+
+    /* main */
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main h2 {
+        display: inline;
+        color: #F24C3D;
+        border-bottom: solid 2px #F24C3D;
+    }
+
+    .main-part1 {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .experience,
+    .skills {
+        width: 40%;
+    }
+
+    .experience h3 {
+        margin: 20px 0 0;
+        color: #F24C3D;
+    }
+
+    /* SKILLS */
+
+    .skill-1,
+    .skill-2,
+    .skill-3,
+    .skill-4,
+    .skill-5,
+    .skill-6 {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .skill-name {
+        width: 150px;
+        margin-right: 20px;
+    }
+
+
+    .skill-level {
+        width: 100%;
+    }
+
+    .progress-html {
+        text-align: right;
+        width: 100%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    .progress-css {
+        text-align: right;
+        width: 75%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    .progress-js {
+        text-align: right;
+        width: 60%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    .progress-angular {
+        text-align: right;
+        width: 50%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    .progress-react {
+        text-align: right;
+        width: 75%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    .progress-nodejs {
+        text-align: right;
+        width: 40%;
+        background-color: #F24C3D;
+        padding-right: 10px;
+        color: #FFFFFF;
+    }
+
+    /* EDUCATION */
+
+    .main-part2 {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .education,
+    .languages {
+        width: 40%;
+    }
+
+    .main-part2 h3 {
+        margin-top: 20px;
+        color: #F24C3D;
+        font-weight: 900;
+    }
+
+
 }

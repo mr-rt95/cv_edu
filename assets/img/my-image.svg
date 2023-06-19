@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 755.45 504.44">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #f24c3d;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <path class="cls-2" d="m622.27,254.9v244.54h-244.54c-135.06,0-244.54-109.48-244.54-244.54S242.67,10.36,377.73,10.36s244.54,109.48,244.54,244.54Z"/>
+    </clipPath>
+  </defs>
+  <g class="cls-3">
+    <image width="1280" height="853" transform="scale(.59)" xlink:href="Yuri9661Ysc.jpg"/>
+  </g>
+  <path class="cls-1" d="m622.27,254.9v244.54h-244.54c-135.06,0-244.54-109.48-244.54-244.54S242.67,10.36,377.73,10.36s244.54,109.48,244.54,244.54Z"/>
+</svg>
