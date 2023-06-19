@@ -7,8 +7,8 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Comfortaa',
-        cursive;
+    font-family: 'Georgia',
+        serif;
 }
 
 footer {
